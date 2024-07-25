@@ -7,11 +7,13 @@ As noted in Haque et. al (2017), scRNA "permits comparison of the transcriptomes
 **Why use Cancer Cell Lines?**
 Cancer cell lines are lines of cells that when taken care of under the correct controls, are not only immortal, but can retain many of the characteristics of the original cancer that they came from. Paired with -omics analysis or in our case, scRNA-seq data, the "driver mutations" can be more easily determined, and these results can be replicated due to the nature of the cancer cell line. Despite this importance, there are challenges with forming, maintaining, and utilizing cancer cell lines. From a technical perspective, growing cancer cell lines has a variety of challenges including isolating the cells and cell culture. Biologically, they can undergo genetic drift which makes the cell line less stable and/or useful, and there is a lack of influence from cell signaling molecules, which do have a role in cancer metastasis.
 
-FINISH!
 **Mechanism of Action — Trastuzumab**
-Trastuzumab is used in the treatment of HER2-positive breast and gastric cancers. HER2 
+Trastuzumab is used in the treatment of HER2-positive breast and gastric cancers. HER2, a transmembrane tyrosine kinase receptor, is overexpressed in "20%-30% of invasive breast carcinomas" hence its use as a target for cancer treatments. HER2 functions by dimerizing with another HER receptor (1-4), and this activates a signal transduction cascade through the RAS-MAPK pathway, a cell proliferation pathway. Trastuzumab binds to the extracellular domain of the HER2 receptor, and the most popular mechanism proposal is that it prevents hetero/homodimerization, therefore deactivating the signaling cascade for cell proliferation. 
+
 **Mechanism of Action — Bevacizumab**
-Bevacizumab is used for a variety of cancers (ie: colorectal, lung, glioblastoma, breast, liver, and kidney cancer.) and targets VEGF.
+Bevacizumab is used for a variety of cancers (ie: colorectal, lung, glioblastoma, breast, liver, and kidney cancer.) and targets VEGF. VEGF is a growth factor, and when bound to it's receptor (VEGF receptor), promotes angiogenesis via the "recruitment and proliferation of endothelial cells." Bevacizumab acts by selectively binding to circulating VEGF, making it unable to bind to it's receptors, and thereby leading to a reduction in blood supply to the tumor.  A potential weakness of using cell lines (versus an in vivo model) to test bevacizumab is that cell lines cannot replicate angiogenesis, since these cells will not form new blood vessels. 
+
+Filis Kazazi-Hyseni, Jos H. Beijnen, Jan H. M. Schellens, Bevacizumab, The Oncologist, Volume 15, Issue 8, August 2010, Pages 819–825, https://doi.org/10.1634/theoncologist.2009-0317
 
 Haque, A., Engel, J., Teichmann, S.A. et al. A practical guide to single-cell RNA-sequencing for biomedical research and clinical applications. Genome Med 9, 75 (2017). https://doi.org/10.1186/s13073-017-0467-4
 
